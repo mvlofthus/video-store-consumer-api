@@ -44,14 +44,14 @@ class VideosController < ApplicationController
   # put it in an action in controller
   # just make use of wrapper
 
-  def add_new_video.get(url, params)
-    SEE VIDEO WRAPPER
-    URL = "the url of tmdb --search the video"
-    response = HTTParty.get(url, query: params)
-
-    we format the response to have the info we want to add to the video table
-    then we .save to the video table
-  end
+  # def add_new_video.get(url, params)
+  #   SEE VIDEO WRAPPER
+  #   URL = "the url of tmdb --search the video"
+  #   response = HTTParty.get(url, query: params)
+  #
+  #   we format the response to have the info we want to add to the video table
+  #   then we .save to the video table
+  # end
 
   private
 
